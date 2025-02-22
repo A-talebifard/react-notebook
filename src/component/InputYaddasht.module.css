@@ -1,0 +1,118 @@
+.container {
+  font-family: "IRANSansXRegular";
+  margin: 1% 20%;
+  height: 250px;
+  background-color: #cdf0fd;
+  border-radius: 30px;
+}
+.input {
+  padding: 1%;
+  width: 93%;
+  height: 140px;
+  margin:0 3%;
+  margin-top: 1%;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: transparent;
+  font-family: "IRANSansXRegular"; /* فونت برای placeholder */
+  font-size: 1.2rem;
+
+
+}
+
+.input::placeholder {
+  font-family: "IRANSansXRegular"; /* فونت برای placeholder */
+  color: #9e9e9e; /* رنگ placeholder */
+}
+
+.input:focus {
+    border-color: rgba(142, 225, 255, 0.4);
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
+
+}
+.inputid {
+  width: 100px;
+  padding-right: 1%;
+  background-color: transparent;
+  border-color: rgba(142, 225, 255, 0.4);
+  font-family: "IRANSansXRegular"; /* فونت برای placeholder */
+  font-size: 1rem;
+}
+
+.inputidlabel {
+  font-family: "IRANSansXRegular"; /* فونت برای placeholder */
+  color: #000000; /* رنگ placeholder */
+  margin: auto 10px;
+}
+
+.inputid:focus {
+    border-color: rgba(0, 44, 59, 0.4);
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
+
+}
+
+.btngroup {
+  direction: ltr;
+  display: flex;
+  margin-top: 0;
+  padding: 1%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 95px;
+  margin: 0 0.5%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #575FF8;
+  border: transparent;
+  font-family: "IRANSansXRegular";
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #5797f8;
+}
+
+.btndel {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 40px;
+  margin: 0 .5%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #9e0000;
+  border: transparent;
+  font-family: "IRANSansXRegular";
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btndel:hover {
+  background-color: #da0000;
+}
+
+
+.svspan {
+  font-family: 'IRANSansXRegular';
+  color: rgb(0, 85, 33);
+  margin: auto 10px;
+}
+.svspanError {
+  font-family: 'IRANSansXRegular';
+  color: #da0000;
+  margin: auto 10px;
+
+}

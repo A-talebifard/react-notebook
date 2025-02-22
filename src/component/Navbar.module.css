@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'IRANSansXRegular';
+    src: url('./fonts/IRANSansX-Regular.ttf') format('truetype'); /* به جای ttf، truetype صحیح‌تر است */
+    font-weight: normal;
+    font-style: normal; /* اضافه کردن font-style برای حالت معمولی */
+  }
+  
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+
+.nav {
+    height: 100px;
+    background-color: #8EE1FF;
+}
+.nav h1 {
+    font-family:'IRANSansXRegular';
+    padding: 0 20%;
+    padding-top: 70px;
+}

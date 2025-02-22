@@ -1,0 +1,24 @@
+.container {
+    font-family: "IRANSansXRegular";
+    margin: 1% 20%;
+    height: 100%;
+    background-color: #cdf0fd;
+    border-radius: 30px;
+    padding:1%;
+  }
+
+
+.noteheader {
+    display: flex;
+    position: relative;
+}
+.noteheader h3{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+.noteheader img {
+    width: 20px; 
+    height: 20px; 
+}
